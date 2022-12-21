@@ -1,0 +1,203 @@
+.main {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  width: 1110px;
+  height: 600px;
+  position: relative;
+  background-image: url(../img/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.heading {
+  width: 445px;
+  height: 357px;
+  padding-top: 55px;
+  padding-right: 60px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.about-person {
+  margin-top: 150px;
+}
+.hidden {
+  position: absolute;
+  visibility: hidden;
+}
+.about-person {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.about-person__content {
+  width: 344px;
+  height: 600px;
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.about-person__content p {
+  font-size: 16px;
+}
+.for-contact {
+  width: 90%;
+  margin-top: 108px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.for-contact h3 {
+  width: 350px;
+}
+.person-img {
+  width: 540px;
+  height: 600px;
+  background-image: url(../img/person.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+@media only screen and (max-width: 1270px) {
+  .hero {
+    width: 1118px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .hero {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .about-person__content {
+    margin-left: 50px;
+  }
+  .person-img {
+    width: 450px;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 918px) {
+  .hero {
+    width: 698px;
+    height: 610px;
+    background-image: url(../img/hero-img-2.jpg);
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .hero {
+    width: 688px;
+    height: 600px;
+    background-image: url(../img/hero-img-2.jpg);
+    background-size: 100%;
+  }
+  .heading {
+    width: 514px;
+    height: 278px;
+  }
+  .person-img {
+    width: 281px;
+    height: 600px;
+    background-image: url(../img/person-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 281px 600px;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .hero {
+    width: 668px;
+  }
+  .heading {
+    width: 494px;
+  }
+  .person-img {
+    width: 261px;
+  }
+}
+@media only screen and (max-width: 695px) {
+  .hero {
+    width: 628px;
+  }
+  .heading {
+    width: 454px;
+  }
+  .person-img {
+    width: 221px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .hero {
+    width: 588px;
+  }
+  .heading {
+    width: 414px;
+  }
+  .person-img {
+    width: 181px;
+    height: 300px;
+    background-size: 181px 270px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    width: 488px;
+  }
+  .heading {
+    width: 311px;
+    height: 350px;
+  }
+  .person-img {
+    width: 181px;
+    height: 300px;
+    background-size: 181px 300px;
+  }
+  .about-person {
+    margin-top: 80px;
+    width: 500px;
+    height: 560px;
+  }
+  .for-contact {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .hero {
+    width: 311px;
+    height: 650px;
+  }
+  .heading {
+    width: 311px;
+    height: 400px;
+  }
+  .person-img {
+    width: 311px;
+    height: 346px;
+    margin-bottom: 20px;
+    background-image: url(../img/person.png);
+    background-size: 311px 346px;
+  }
+  .about-person {
+    width: 350px;
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-person__content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

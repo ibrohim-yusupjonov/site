@@ -1,0 +1,74 @@
+@import "./blocks/all_blocks";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container__wrapper {
+  // max-width: 1640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-height: 100%;
+  height: auto;
+}
+h1 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  color: #33323d;
+  margin: 0;
+}
+h2 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+h3 {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.285714px;
+  color: #33323d;
+}
+p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #33323d;
+}
+@media only screen and (max-width: 900px) {
+  h2 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+}
